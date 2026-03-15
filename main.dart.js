@@ -23679,7 +23679,7 @@ _.a=d
 _.b=e},
 a3L:function a3L(){},
 aHu(a){var s=J.ao(a)
-return new A.kl(s.h(a,"id"),s.h(a,"friendly_name"),B.b.Gy(B.Fe,new A.a29(a)),B.b.Gy(B.Fd,new A.a2a(a)),A.a_T(s.h(a,"created_at")),A.a_T(s.h(a,"updated_at")))},
+return new A.kl(s.h(a,"id"),s.h(a,"friendly_name"),B.b.Gy(B.Fd,new A.a29(a)),B.b.Gy(B.Fc,new A.a2a(a)),A.a_T(s.h(a,"created_at")),A.a_T(s.h(a,"updated_at")))},
 od:function od(a,b){this.a=a
 this.b=b},
 oe:function oe(a,b){this.a=a
@@ -81331,7 +81331,7 @@ s.f=this.b
 s.r=!1},
 $S:0}
 A.akX.prototype={
-$1(a){return B.c.v(J.cG(J.aN(a,"ISOMETRICO")).toLowerCase(),this.a.e.toLowerCase())},
+$1(a){return B.c.v(J.cG(J.aN(a,"N\xba  ISOM\xc9TRICO")).toLowerCase(),this.a.e.toLowerCase())},
 $S:499}
 A.akY.prototype={
 $1(a){var s=this.a
@@ -81341,8 +81341,8 @@ A.akW.prototype={
 $0(){this.a.e=this.b},
 $S:0}
 A.akZ.prototype={
-$2(a,b){var s="FECHA_SOLDEO",r=null,q=this.b,p=q[b],o=J.ao(p),n=o.h(p,s)!=null&&J.cG(o.h(p,s)).length!==0?A.aJ(B.d.aJ(76.5),B.k1.C()>>>16&255,B.k1.C()>>>8&255,B.k1.C()&255):B.E,m=A.avD(B.m6),l=A.nH(6)
-return A.Jd(r,A.a_u(A.iC(J.cG(o.h(p,"JUNTA")),r,r,r,B.Op,r,r),B.Q,new A.fk(n,r,m,l,r,r,B.bF),r,B.De,B.mA,r),B.aE,!1,r,r,r,r,r,r,r,r,r,r,r,r,r,new A.akV(this.a,a,p,q,b),r,r,r)},
+$2(a,b){var s="FECHA  DE SOLDEO",r=null,q=this.b,p=q[b],o=J.ao(p),n=o.h(p,s)!=null&&J.cG(o.h(p,s)).length!==0?A.aJ(B.d.aJ(76.5),B.k1.C()>>>16&255,B.k1.C()>>>8&255,B.k1.C()&255):B.E,m=A.avD(B.m6),l=A.nH(6)
+return A.Jd(r,A.a_u(A.iC(J.cG(o.h(p,"JUNTAS")),r,r,r,B.Op,r,r),B.Q,new A.fk(n,r,m,l,r,r,B.bF),r,B.De,B.mA,r),B.aE,!1,r,r,r,r,r,r,r,r,r,r,r,r,r,new A.akV(this.a,a,p,q,b),r,r,r)},
 $S:500}
 A.akV.prototype={
 $0(){var s=0,r=A.H(t.H),q=this,p,o
@@ -81363,9 +81363,9 @@ $0(){this.a[this.b]=this.c},
 $S:0}
 A.tm.prototype={
 O(a){var s=null
-return A.asU(A.avu(A.iC("Propiedades - "+A.k(J.aN(this.c,"JUNTA")),s,s,s,s,s,s)),s,new A.e8(B.iW,A.axp(new A.aae(this),9),s))}}
+return A.asU(A.avu(A.iC("Propiedades - "+A.k(J.aN(this.c,"JUNTAS")),s,s,s,s,s,s)),s,new A.e8(B.iW,A.axp(new A.aae(this),9),s))}}
 A.aae.prototype={
-$2(a,b){var s,r,q,p=null,o=B.Fb[b],n=o.h(0,"label")
+$2(a,b){var s,r,q,p=null,o=B.Fh[b],n=o.h(0,"label")
 n.toString
 s=J.aN(this.a.c,o.h(0,"key"))
 s=s==null?p:J.cG(s)
@@ -87745,39 +87745,39 @@ B.eT=new A.kZ(3,"justify")
 B.aU=new A.kZ(4,"start")
 B.hJ=new A.kZ(5,"end")
 B.F3=s([B.ci,B.dy,B.hI,B.eT,B.aU,B.hJ],A.al("y<kZ>"))
-B.Fg=s([2,1.13276676],t.n)
+B.Ff=s([2,1.13276676],t.n)
 B.Eo=s([2.18349805,1.20311921],t.n)
 B.G1=s([2.33888662,1.28698796],t.n)
 B.G3=s([2.48660575,1.36351941],t.n)
 B.F6=s([2.62226596,1.44717976],t.n)
-B.Fc=s([2.7514899,1.53385819],t.n)
+B.Fb=s([2.7514899,1.53385819],t.n)
 B.FB=s([3.36298265,1.98288283],t.n)
 B.Fj=s([4.08649929,2.23811846],t.n)
 B.Fu=s([4.85481134,2.47563463],t.n)
 B.F9=s([5.62945551,2.72948597],t.n)
-B.Fh=s([6.43023796,2.98020421],t.n)
-B.nj=s([B.Fg,B.Eo,B.G1,B.G3,B.F6,B.Fc,B.FB,B.Fj,B.Fu,B.F9,B.Fh],t.zg)
+B.Fg=s([6.43023796,2.98020421],t.n)
+B.nj=s([B.Ff,B.Eo,B.G1,B.G3,B.F6,B.Fb,B.FB,B.Fj,B.Fu,B.F9,B.Fg],t.zg)
 B.F5=s([B.ik,B.il],A.al("y<w8>"))
 B.F8=s([18,15,10,12,15,18,15,12,12],t.n)
-B.bT={label:0,key:1}
-B.Ii=new A.bj(B.bT,["\xd8 DI\xc1METRO","DIAMETRO"],t.l)
-B.Ia=new A.bj(B.bT,["SDR/Sch","SDR_SCH"],t.l)
-B.If=new A.bj(B.bT,["TIPO DE UNI\xd3N","TIPO_UNION"],t.l)
-B.Ie=new A.bj(B.bT,["ESTAMPA DEL SOLDADOR","ESTAMP_SOLDADOR"],t.l)
-B.Ig=new A.bj(B.bT,["FECHA DE SOLDEO","FECHA_SOLDEO"],t.l)
-B.Ic=new A.bj(B.bT,["LIBERACI\xd3N DE QC","LIBERACION_QC"],t.l)
-B.Id=new A.bj(B.bT,["FECHA DE LIBERACI\xd3N","FECHA_LIBERACION"],t.l)
-B.Ih=new A.bj(B.bT,["M\xc1QUINA DE TERMOFUSI\xd3N","MAQUINA_TERMO"],t.l)
-B.Ib=new A.bj(B.bT,["OBSERVACI\xd3N","OBSERVACION"],t.l)
-B.Fb=s([B.Ii,B.Ia,B.If,B.Ie,B.Ig,B.Ic,B.Id,B.Ih,B.Ib],A.al("y<ai<l,l>>"))
 B.Dx=new A.od(0,"verified")
 B.Dy=new A.od(1,"unverified")
-B.Fd=s([B.Dx,B.Dy],A.al("y<od>"))
+B.Fc=s([B.Dx,B.Dy],A.al("y<od>"))
 B.Dz=new A.oe(0,"totp")
 B.DA=new A.oe(1,"phone")
-B.Fe=s([B.Dz,B.DA],A.al("y<oe>"))
+B.Fd=s([B.Dz,B.DA],A.al("y<oe>"))
 B.zn=new A.fU("",6,"userDeleted")
 B.nk=s([B.cW,B.dP,B.dQ,B.cX,B.dR,B.lo,B.zn,B.ln],A.al("y<fU>"))
+B.bT={label:0,key:1}
+B.If=new A.bj(B.bT,["\xd8 DI\xc1METRO","\xd8 DI\xc1METRO"],t.l)
+B.Id=new A.bj(B.bT,["SDR/Sch","SDR/Sch"],t.l)
+B.Ib=new A.bj(B.bT,["TIPO DE UNI\xd3N","TIPO DE UNI\xd3N"],t.l)
+B.Ii=new A.bj(B.bT,["ESTAMPA DEL SOLDADOR","ESTAMPA DELSOLDADOR"],t.l)
+B.Ih=new A.bj(B.bT,["FECHA DE SOLDEO","FECHA  DE SOLDEO"],t.l)
+B.Ig=new A.bj(B.bT,["LIBERACI\xd3N DE QC","LIBERACI\xd3N DE QC"],t.l)
+B.Ie=new A.bj(B.bT,["FECHA DE LIBERACI\xd3N","FECHA DE LIBERACI\xd3N"],t.l)
+B.Ia=new A.bj(B.bT,["M\xc1QUINA DE TERMOFUSI\xd3N","M\xc1QUINA  DE TERMUFUSI\xd3N"],t.l)
+B.Ic=new A.bj(B.bT,["OBSERVACI\xd3N","OBSERVACI\xd3N"],t.l)
+B.Fh=s([B.If,B.Id,B.Ib,B.Ii,B.Ih,B.Ig,B.Ie,B.Ia,B.Ic],A.al("y<ai<l,l>>"))
 B.ar=new A.ek(0,"icon")
 B.aB=new A.ek(1,"input")
 B.a_=new A.ek(2,"label")
@@ -88471,7 +88471,7 @@ B.Fz=s([8589934850,8589934850,8589934851,null],t.Z)
 B.tq=new A.de(["*",B.EC,"+",B.ED,"-",B.EE,".",B.EF,"/",B.EG,"0",B.EH,"1",B.EI,"2",B.EK,"3",B.EL,"4",B.EM,"5",B.EN,"6",B.EO,"7",B.EP,"8",B.EQ,"9",B.ES,"Alt",B.Fw,"AltGraph",B.Er,"ArrowDown",B.Es,"ArrowLeft",B.Et,"ArrowRight",B.Eu,"ArrowUp",B.Ev,"Clear",B.EA,"Control",B.Fx,"Delete",B.Eq,"End",B.Ew,"Enter",B.Ep,"Home",B.Ex,"Insert",B.EB,"Meta",B.Fy,"PageDown",B.Ey,"PageUp",B.Ez,"Shift",B.Fz],A.al("de<l,B<r?>>"))
 B.ER=s([B.ny,null,null,B.te],t.L)
 B.G_=s([B.t0,null,null,B.tf],t.L)
-B.Ff=s([B.t1,null,null,B.tg],t.L)
+B.Fe=s([B.t1,null,null,B.tg],t.L)
 B.FA=s([B.t2,null,null,B.cF],t.L)
 B.Ej=s([B.t3,null,null,B.th],t.L)
 B.G9=s([B.t4,null,null,B.jU],t.L)
@@ -88501,7 +88501,7 @@ B.F0=s([B.es,B.es,B.h5,null],t.L)
 B.Fp=s([B.en,null,null,B.eu],t.L)
 B.FM=s([B.eo,null,null,B.ew],t.L)
 B.F1=s([B.cd,B.cd,B.cE,null],t.L)
-B.I9=new A.de(["*",B.ER,"+",B.G_,"-",B.Ff,".",B.FA,"/",B.Ej,"0",B.G9,"1",B.G8,"2",B.EX,"3",B.Gf,"4",B.G7,"5",B.EV,"6",B.En,"7",B.F4,"8",B.G0,"9",B.G2,"Alt",B.EZ,"AltGraph",B.Ga,"ArrowDown",B.Fk,"ArrowLeft",B.Fl,"ArrowRight",B.Fm,"ArrowUp",B.Ge,"Clear",B.G5,"Control",B.F_,"Delete",B.FH,"End",B.Fn,"Enter",B.EU,"Home",B.Fo,"Insert",B.G6,"Meta",B.F0,"PageDown",B.Fp,"PageUp",B.FM,"Shift",B.F1],A.al("de<l,B<f?>>"))
+B.I9=new A.de(["*",B.ER,"+",B.G_,"-",B.Fe,".",B.FA,"/",B.Ej,"0",B.G9,"1",B.G8,"2",B.EX,"3",B.Gf,"4",B.G7,"5",B.EV,"6",B.En,"7",B.F4,"8",B.G0,"9",B.G2,"Alt",B.EZ,"AltGraph",B.Ga,"ArrowDown",B.Fk,"ArrowLeft",B.Fl,"ArrowRight",B.Fm,"ArrowUp",B.Ge,"Clear",B.G5,"Control",B.F_,"Delete",B.FH,"End",B.Fn,"Enter",B.EU,"Home",B.Fo,"Insert",B.G6,"Meta",B.F0,"PageDown",B.Fp,"PageUp",B.FM,"Shift",B.F1],A.al("de<l,B<f?>>"))
 B.IQ={KeyA:0,KeyB:1,KeyC:2,KeyD:3,KeyE:4,KeyF:5,KeyG:6,KeyH:7,KeyI:8,KeyJ:9,KeyK:10,KeyL:11,KeyM:12,KeyN:13,KeyO:14,KeyP:15,KeyQ:16,KeyR:17,KeyS:18,KeyT:19,KeyU:20,KeyV:21,KeyW:22,KeyX:23,KeyY:24,KeyZ:25,Digit1:26,Digit2:27,Digit3:28,Digit4:29,Digit5:30,Digit6:31,Digit7:32,Digit8:33,Digit9:34,Digit0:35,Minus:36,Equal:37,BracketLeft:38,BracketRight:39,Backslash:40,Semicolon:41,Quote:42,Backquote:43,Comma:44,Period:45,Slash:46}
 B.k0=new A.bj(B.IQ,["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","1","2","3","4","5","6","7","8","9","0","-","=","[","]","\\",";","'","`",",",".","/"],t.l)
 B.IN={Abort:0,Again:1,AltLeft:2,AltRight:3,ArrowDown:4,ArrowLeft:5,ArrowRight:6,ArrowUp:7,AudioVolumeDown:8,AudioVolumeMute:9,AudioVolumeUp:10,Backquote:11,Backslash:12,Backspace:13,BracketLeft:14,BracketRight:15,BrightnessDown:16,BrightnessUp:17,BrowserBack:18,BrowserFavorites:19,BrowserForward:20,BrowserHome:21,BrowserRefresh:22,BrowserSearch:23,BrowserStop:24,CapsLock:25,Comma:26,ContextMenu:27,ControlLeft:28,ControlRight:29,Convert:30,Copy:31,Cut:32,Delete:33,Digit0:34,Digit1:35,Digit2:36,Digit3:37,Digit4:38,Digit5:39,Digit6:40,Digit7:41,Digit8:42,Digit9:43,DisplayToggleIntExt:44,Eject:45,End:46,Enter:47,Equal:48,Escape:49,Esc:50,F1:51,F10:52,F11:53,F12:54,F13:55,F14:56,F15:57,F16:58,F17:59,F18:60,F19:61,F2:62,F20:63,F21:64,F22:65,F23:66,F24:67,F3:68,F4:69,F5:70,F6:71,F7:72,F8:73,F9:74,Find:75,Fn:76,FnLock:77,GameButton1:78,GameButton10:79,GameButton11:80,GameButton12:81,GameButton13:82,GameButton14:83,GameButton15:84,GameButton16:85,GameButton2:86,GameButton3:87,GameButton4:88,GameButton5:89,GameButton6:90,GameButton7:91,GameButton8:92,GameButton9:93,GameButtonA:94,GameButtonB:95,GameButtonC:96,GameButtonLeft1:97,GameButtonLeft2:98,GameButtonMode:99,GameButtonRight1:100,GameButtonRight2:101,GameButtonSelect:102,GameButtonStart:103,GameButtonThumbLeft:104,GameButtonThumbRight:105,GameButtonX:106,GameButtonY:107,GameButtonZ:108,Help:109,Home:110,Hyper:111,Insert:112,IntlBackslash:113,IntlRo:114,IntlYen:115,KanaMode:116,KeyA:117,KeyB:118,KeyC:119,KeyD:120,KeyE:121,KeyF:122,KeyG:123,KeyH:124,KeyI:125,KeyJ:126,KeyK:127,KeyL:128,KeyM:129,KeyN:130,KeyO:131,KeyP:132,KeyQ:133,KeyR:134,KeyS:135,KeyT:136,KeyU:137,KeyV:138,KeyW:139,KeyX:140,KeyY:141,KeyZ:142,KeyboardLayoutSelect:143,Lang1:144,Lang2:145,Lang3:146,Lang4:147,Lang5:148,LaunchApp1:149,LaunchApp2:150,LaunchAssistant:151,LaunchControlPanel:152,LaunchMail:153,LaunchScreenSaver:154,MailForward:155,MailReply:156,MailSend:157,MediaFastForward:158,MediaPause:159,MediaPlay:160,MediaPlayPause:161,MediaRecord:162,MediaRewind:163,MediaSelect:164,MediaStop:165,MediaTrackNext:166,MediaTrackPrevious:167,MetaLeft:168,MetaRight:169,MicrophoneMuteToggle:170,Minus:171,NonConvert:172,NumLock:173,Numpad0:174,Numpad1:175,Numpad2:176,Numpad3:177,Numpad4:178,Numpad5:179,Numpad6:180,Numpad7:181,Numpad8:182,Numpad9:183,NumpadAdd:184,NumpadBackspace:185,NumpadClear:186,NumpadClearEntry:187,NumpadComma:188,NumpadDecimal:189,NumpadDivide:190,NumpadEnter:191,NumpadEqual:192,NumpadMemoryAdd:193,NumpadMemoryClear:194,NumpadMemoryRecall:195,NumpadMemoryStore:196,NumpadMemorySubtract:197,NumpadMultiply:198,NumpadParenLeft:199,NumpadParenRight:200,NumpadSubtract:201,Open:202,PageDown:203,PageUp:204,Paste:205,Pause:206,Period:207,Power:208,PrintScreen:209,PrivacyScreenToggle:210,Props:211,Quote:212,Resume:213,ScrollLock:214,Select:215,SelectTask:216,Semicolon:217,ShiftLeft:218,ShiftRight:219,ShowAllWindows:220,Slash:221,Sleep:222,Space:223,Super:224,Suspend:225,Tab:226,Turbo:227,Undo:228,WakeUp:229,ZoomToggle:230}
