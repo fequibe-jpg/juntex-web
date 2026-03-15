@@ -25592,7 +25592,7 @@ var $async$ar_=A.I(function(a,b){if(a===1)return A.E(b,r)
 for(;;)switch(s){case 0:if($.a_==null)A.atl()
 $.a_.toString
 s=2
-return A.D(A.afh("TU-KEY","https://TU-PROYECTO.supabase.co"),$async$ar_)
+return A.D(A.afh("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5yc252bHdkYm5wYnhkZ2NlamZsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM0NDUyNzQsImV4cCI6MjA4OTAyMTI3NH0.KC8kv_NBEs3lnv3ftoGT3xGxgO3lIEsPuZ7dcZK0gYo","https://nrsnvlwdbnpbxdgcejfl.supabase.co"),$async$ar_)
 case 2:q=A.u8(null,A.avZ(B.a1,null,null,B.ex),!0)
 if($.a_==null)A.atl()
 p=$.a_
